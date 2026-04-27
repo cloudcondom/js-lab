@@ -114,7 +114,7 @@ function find(array, callback) {
 true, если найден хотя бы один подходящий элемент,
 false — если ни один элемент не соответствует условию.
 
-![alt text](image4)
+![alt text](image5)
   ```JavaScript
 function some(array, callback) {
   for (let i = 0; i < array.length; i++) {
@@ -134,7 +134,7 @@ function some(array, callback) {
 true, если все элементы соответствуют условию,
 false — если хотя бы один элемент не соответствует.
 
-![alt text](image5)
+![alt text](image6)
   ```JavaScript
 function every(array, callback) {
   for (let i = 0; i < array.length; i++) {
@@ -158,7 +158,7 @@ callback-функцию,
 
 Возвращает одно итоговое значение, полученное в результате обработки всех элементов массива.
 
-![alt text](image6)
+![alt text](image)
   ```Javascript
 function reduce(array, callback, initialValue) {
   let acc = initialValue;
