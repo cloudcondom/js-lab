@@ -36,7 +36,7 @@ function printArray1(array) {
 индекс элемента,
 исходный массив.
 
-![alt text](image7)
+![alt text](image7.png)
 ```Javascript
 function forEach(array, callback) {
   for (let i = 0; i < array.length; i++) {
@@ -58,7 +58,7 @@ function map(array, callback) {
 Возвращает новый массив, содержащий результаты выполнения callback для каждого элемента исходного массива.
 Длина нового массива совпадает с длиной исходного.
 
-![alt text](image2)
+![alt text](image2.png)
   ```Javascript
 function map(array, callback) {
   const result = [];
@@ -74,7 +74,7 @@ function map(array, callback) {
 
 Возвращает новый массив, содержащий только те элементы, для которых callback вернул true.
 
-![alt text](image3)
+![alt text](image3.png)
   ```JavaScript
 function filter(array, callback) {
   const result = [];
@@ -93,7 +93,7 @@ function filter(array, callback) {
 Возвращает первый элемент, для которого callback возвращает true.
 Если такой элемент отсутствует, возвращается undefined.
 
-![alt text](image4)
+![alt text](image4.png)
   ```JavaScript
 function find(array, callback) {
   for (let i = 0; i < array.length; i++) {
@@ -114,7 +114,7 @@ function find(array, callback) {
 true, если найден хотя бы один подходящий элемент,
 false — если ни один элемент не соответствует условию.
 
-![alt text](image5)
+![alt text](image5.png)
   ```JavaScript
 function some(array, callback) {
   for (let i = 0; i < array.length; i++) {
@@ -134,7 +134,7 @@ function some(array, callback) {
 true, если все элементы соответствуют условию,
 false — если хотя бы один элемент не соответствует.
 
-![alt text](image6)
+![alt text](image6.png)
   ```JavaScript
 function every(array, callback) {
   for (let i = 0; i < array.length; i++) {
@@ -158,7 +158,7 @@ callback-функцию,
 
 Возвращает одно итоговое значение, полученное в результате обработки всех элементов массива.
 
-![alt text](image)
+![alt text](image.png)
   ```Javascript
 function reduce(array, callback, initialValue) {
   let acc = initialValue;
