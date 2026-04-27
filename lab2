@@ -1,0 +1,18 @@
+№Цель работы
+
+#№ 1.1. Вывод массива в консоль
+![alt text](image.png)
+  ```JavaScript
+function printArray(array) {
+  for (let i = 0; i < array.length; i++) {
+    console.log(`Element ${i}: value ${array[i]}`);
+  }
+}
+
+function printArray1(array) {
+  for (let i = 0; i < array.length; i++) {
+    console.log(`${i}: ${array[i]}`);
+  }
+}
+
+№№№ 1.2. Функция forEach(array, callback)
