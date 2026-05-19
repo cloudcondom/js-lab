@@ -135,19 +135,14 @@ items.forEach(item => {
 
 ---
 
-## 📸 Скриншоты
+## Скриншоты
 
-### Структура проекта в VS Code
-![project-structure](screenshots/01_project_structure.png)
-
-### Запуск файла в терминале
-![terminal-run](screenshots/02_terminal_run.png)
 
 ### Вывод результатов — Шаг 3 (классы)
-![output-classes](screenshots/03_output_classes.png)
+![alt text](image.png)
 
 ### Вывод результатов — Шаг 4 (конструкторы + опциональная цепочка)
-![output-constructors](screenshots/04_output_constructors.png)
+![alt text](image1.png)
 
 ---
 
@@ -184,7 +179,7 @@ node lab4.js
 
 ---
 
-## ❓ Ответы на контрольные вопросы
+##  Ответы на контрольные вопросы
 
 **1. Какое значение имеет `this` в методах класса?**
 
@@ -201,12 +196,12 @@ class Weapon {
   #durability = 100;
 
   getDurability() {
-    return this.#durability; // ✅ внутри класса — ок
+    return this.#durability; //  внутри класса — ок
   }
 }
 
 const w = new Weapon();
-console.log(w.#durability); // ❌ SyntaxError
+console.log(w.#durability); //  SyntaxError
 ```
 
 ---
@@ -226,7 +221,7 @@ console.log(w.#durability); // ❌ SyntaxError
 
 ---
 
-## 📝 Вывод
+##  Вывод
 
 В ходе лабораторной работы были изучены и реализованы:
 
