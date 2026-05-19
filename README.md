@@ -146,7 +146,7 @@ items.forEach(item => {
 
 ---
 
-## ▶️ Запуск
+##  Запуск
 
 ```bash
 node lab4.js
